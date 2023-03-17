@@ -1,0 +1,30 @@
+.p {
+	font-size: 3rem;
+	border-style: dotted;
+	text-align: left;
+	text-decoration: line-through;
+}
+
+.pi {
+	font-size: 4rem;
+	color: hsl(0,100%, 50%)
+
+}
+
+.animation-text {
+  animation: color-change 0.0005ks infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: blue;
+  }
+
+  50% {
+    color: red;
+  }
+
+  100% {
+    color: blue;
+  }
+}
