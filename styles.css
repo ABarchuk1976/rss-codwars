@@ -28,3 +28,11 @@
     color: blue;
   }
 }
+
+.bgi {
+	position: relative;
+	top: 200px;
+	background: #aaa;
+	color: black;
+	height: 30px;
+}
